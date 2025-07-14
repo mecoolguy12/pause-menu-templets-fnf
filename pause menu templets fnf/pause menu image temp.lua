@@ -22,7 +22,7 @@ function onCustomSubstateCreate(name)
         setProperty('bgFade.alpha', 0)
         addLuaSprite('bgFade', false)
 
-        -- Background image bar or som shiy
+        -- Background image bar
         makeLuaSprite('bar1', 'PAUSE/PAUSE bg', 0, 0)
         setObjectCamera('bar1', 'camOther')
         screenCenter('bar1', 'x')
