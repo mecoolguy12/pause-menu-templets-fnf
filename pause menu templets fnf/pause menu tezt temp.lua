@@ -13,7 +13,7 @@ end
 
 function onCustomSubstateCreate(name)
     if name == 'pauseState' then
-        -- BG Fade
+        -- Background fade
         makeLuaSprite('bgFade', nil, 0, 0)
         makeGraphic("bgFade", 1280, 720, '000000')
         setObjectCamera('bgFade', 'camOther')
@@ -21,7 +21,7 @@ function onCustomSubstateCreate(name)
         setProperty('bgFade.alpha', 0)
         addLuaSprite('bgFade', false)
 
-        -- Background image bar
+        -- Background image
         makeLuaSprite('bar1', 'PAUSE/PAUSE bg', 0, 0)
         setObjectCamera('bar1', 'camOther')
         screenCenter('bar1', 'x')
@@ -40,7 +40,7 @@ function onCustomSubstateCreatePost(name)
         doTweenAlpha("bgAlphaTween", "bgFade", 0.5, 0.4, 'linear')
         doTweenAlpha("barAlphaTween", "bar1", 1, 0.4, 'linear')
 
-        -- Buttons as text
+        -- Buttons
         for i, label in ipairs(option) do
             makeLuaText('option_'..i, label, 400, 150, 200 + (i - 1) * 100)
             setTextSize('option_'..i, 48)
