@@ -1,6 +1,6 @@
 # Menu Templates for Friday Night Funkin
 
-Comments for documentation are within the source code (Mostly the text menu template)
+Comments for documentation are within the source code (Mostly in the text menu template)
 
 ## Credits
 
