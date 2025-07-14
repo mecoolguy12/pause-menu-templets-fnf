@@ -1,5 +1,4 @@
--- Complete Custom Pause Menu with Text Buttons and Random Icon
--- Inspired by FishDev, adapted for Psych Engine with random icon support
+-- Inspired by FishDev
 
 local pauseMusic = 'breakfast' -- music file in "sounds/"
 local pauseIcons = {'maxPause', 'broPause'} -- image files in "images/"
