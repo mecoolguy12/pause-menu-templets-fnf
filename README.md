@@ -4,7 +4,7 @@ Comments for documentation are within the source code (Mostly in the text menu t
 
 ## Credits
 
-Code created by yousuck7
+Code created by mecoolguy12
 
 Code inspired by FishDev
 
