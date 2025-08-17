@@ -1,4 +1,4 @@
--- Inspired by FishDev code
+-- Inspired by FishDev
 
 local pauseMusic = 'breakfast' 
 local pauseIcons = {'maxPause', 'broPause'}
@@ -119,3 +119,4 @@ function onTimerCompleted(tag)
         playSound(pauseMusic, 1, 'pauseSongTag')
     end
 end
+
